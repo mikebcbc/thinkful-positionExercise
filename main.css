@@ -17,6 +17,7 @@ nav {
 	padding: 5px 60px;
 	background-color: grey;
 	width: 100%;
+	top: 0;
 }
 
 nav img {
@@ -39,4 +40,29 @@ nav ul li {
 
 nav ul li:after {
 	content: " | ";
+}
+
+.space-wrapper {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	top: 280px;
+	margin: 0 auto;
+	border: 10px green dotted;
+}
+
+.space-wrapper img {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.space-cat {
+	top: -100px;
+	left: -100px;
+}
+
+.space-dog {
+	bottom: -100px;
+	right: -100px;
 }
